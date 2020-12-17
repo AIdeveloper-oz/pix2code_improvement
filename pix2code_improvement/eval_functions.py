@@ -3,8 +3,8 @@ from pathlib import Path
 from tqdm import tqdm
 import pandas as pd
 from utils import clean_code
-import distance
-import re
+#import distance
+#import re
 
 
 def eval_cnn_model(model_instance, npz_paths, voc, words_to_include, index_value='accuracy'):
